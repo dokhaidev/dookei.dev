@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   icons: {
-    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
-    shortcut: "/favicon.svg",
-    apple: "/favicon.svg",
+    icon: [{ url: "favicon.svg", type: "image/svg+xml" }],
+    shortcut: "favicon.svg",
+    apple: "favicon.svg",
   },
   title: {
     default: "Richard Huynh (dokhaidev) — Frontend Software Engineer",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   description:
     "Frontend Software Engineer portfolio by Richard Huynh (dokhaidev): projects, experience, skills, and contact details.",
-  metadataBase: new URL("https://example.com"),
+  metadataBase: new URL("https://dokhaidev.github.io/dookei.dev"),
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",

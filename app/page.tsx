@@ -12,7 +12,7 @@ import {
   FaRocket,
   FaTrophy,
 } from "react-icons/fa6";
-import { SiGithub, SiZalo } from "react-icons/si";
+import { SiGithub } from "react-icons/si";
 import { Container } from "@/components/container";
 import { Badge, Card } from "@/components/ui";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -123,7 +123,6 @@ export default function Home() {
               <a className="icon-btn" href={site.links.github} aria-label="GitHub"><SiGithub /></a>
               <a className="icon-btn" href={site.links.linkedin} aria-label="LinkedIn"><FaLinkedinIn /></a>
               <a className="icon-btn" href={site.links.facebook} aria-label="Facebook"><FaFacebookF /></a>
-              <a className="icon-btn" href={site.links.zalo} aria-label="Zalo"><SiZalo /></a>
               <a className="icon-btn" href={site.links.instagram} aria-label="Instagram"><FaInstagram /></a>
             </div>
           </div>
