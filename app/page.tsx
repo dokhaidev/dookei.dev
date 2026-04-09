@@ -100,11 +100,12 @@ export default function Home() {
         <Container>
           <div className="profile-strip">
             <div className="relative h-24 w-24 overflow-hidden rounded-full border border-border bg-card">
-              <Image
-                src="/z7613335881697_e36052a81580642946f9b202d2e2dbff.jpg"
+              {/* Dùng <img> + path relative để luôn đúng khi deploy GitHub Pages (subpath) */}
+              <img
+                src="z7613335881697_e36052a81580642946f9b202d2e2dbff.jpg"
                 alt="Richard Huynh avatar"
-                fill
-                className="object-cover"
+                className="h-full w-full object-cover"
+                draggable={false}
               />
             </div>
             <div className="flex-1">
